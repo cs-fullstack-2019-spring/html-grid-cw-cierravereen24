@@ -1,7 +1,5 @@
 .container {
-    /*display: grid;*/
-    /*grid-template-columns: 200px;*/
-    /*grip-auto-rows: minmax(100px,auto)*/
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:3px;
@@ -9,12 +7,7 @@
     margin: 7em auto;
     border: 1px solid #999;
 }
-/*header,*/
-/*footer {*/
 
-    /*background-color: lightslategray;*/
-    /*border-style: solid;*/
-/*}*/
 
 header {
     grid-column: 1 / 4;
@@ -72,21 +65,3 @@ footer {
 
 
 
-/*header{*/
-    /*background-color: #cac7e3;*/
-/*}*/
-
-/*section{*/
-    /*background-color: #cac7e3;*/
-/*}*/
-/*aside{*/
-    /*background-color: #cac7e3;*/
-/*}*/
-
-/*article{*/
-    /*background-color: #cac7e3;*/
-/*}*/
-
-/*Footer{*/
-    /*background-color: #cac7e3;*/
-/*}*/
